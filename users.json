@@ -1,0 +1,18 @@
+{
+    "users": [
+        {
+            "id": 0,
+            "name": "Mohameth Seck",
+            "service": "Web Developer",
+            "location": "Dakar",
+            "lang": "English"
+        },
+        {
+            "id": 1,
+            "name": "Aziz Seck",
+            "service": "Chef",
+            "location": "Dakar",
+            "lang": "English, French"
+        }
+    ]
+}
