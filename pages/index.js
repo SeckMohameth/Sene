@@ -1,31 +1,56 @@
+import React, { useState } from 'react'
+
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
-import Freelancer from '../components/Freelancer.js'
+import users from '../users'
+
+// import CardList from '../components/CardList'
+import Card from '../components/Card'
+import Search from '../components/Searchbar'
 import HeroBanner from "../components/Hero-banner"
 
 export default function Home() {
+
+const user = users; 
+
+
+
   return (
-    <div className={styles.container}>
+    <div >
       <Head>
-        <title>Create Next App</title>
+        <title>Jambar</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Jambar
-
-        </h1>
-
-        <div className={styles.grid}>
-          <Freelancer/>
-
+      <main>
+        <Search placeholder='Search Jamber' />
+        <HeroBanner />
+        <div className="freelancers">
+          {user.map(user =>
+            <Card 
+            
+            name={user.name}
+            service={user.service}
+            location={user.location}
+            lang={user.lang}
+            />
+          )}
         </div>
-      </main>
+        <section className="about-1">
+          <div>
 
-      <footer className={styles.footer}>
-          Made with ❤️ in Dakar
+          </div>
+        </section>
+
+        <section className="services">
+          <div>
+
+          </div>
+        </section>
+       
+      </main>
+      <footer >
+          {/* Made with ❤️ in Dakar */}
       </footer>
     </div>
   )

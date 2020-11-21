@@ -1,0 +1,16 @@
+/* ./your-css-folder/tailwind.css */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
+.freelancers {
+    padding: 50px;
+    @apply flex justify-start;
+    @apply grid grid-cols-4 gap-6;
+}
+
+.user-card {
+    @apply border-0 rounded-lg shadow-md p-8 m-8 content-center;
+
+}

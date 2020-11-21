@@ -74,7 +74,7 @@ const users = [
         },
         {
             "id": 9,
-            "name": "Aziz Seck",
+            "name": "Semba",
             "service": "House Keeper",
             "location": "Dakar",
             "lang": "English, French",
@@ -93,14 +93,6 @@ const users = [
             "name": "Amina",
             "service": "Videography",
             "location": "Theis",
-            "lang": "English, French",
-            "img": "../"
-        },
-        {
-            "id": 12,
-            "name": "Semba",
-            "service": "Artist",
-            "location": "Dakar",
             "lang": "English, French",
             "img": "../"
         }
