@@ -9,6 +9,7 @@ import users from '../users'
 import Card from '../components/Card'
 import Search from '../components/Searchbar'
 import HeroBanner from "../components/Hero-banner"
+import ServiceCard from "../components/ServiceCard"
 
 export default function Home() {
 
@@ -54,45 +55,62 @@ const user = users;
           </div>
         </section>
 
-        <section className="services">
-          <div>
-          <h1 className="text-5xl font-bold p-16">Search by Services</h1>
-              <div className="service-card">
-                <img src=""> </img>
-              </div>
+        <section className="services p-3">
+        <h1 className="text-5xl font-bold p-16">Search by Services</h1>
 
-              <div className="service-card">
-                <img src=""> </img>
-              </div>
+          <div className="flex justify-start grid grid-cols-3 gap-6">
 
-              <div className="service-card">
-                <img src=""> </img>
-              </div>
+              <ServiceCard 
+              img="https://github.com/SeckMohameth/Sene/blob/main/public/images/marketing.jpg?raw=true"
+              title="Marketing"
+              />
 
-              <div className="service-card">
-                <img src=""> </img>
-              </div>
+              <ServiceCard 
+              img="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDl8fGNvZGV8ZW58MHx8MHw%3D&auto=format&fit=crop&w=800&q=60"
+              title="Delvelopers"
+              />
 
-              <div className="service-card">
-                <img src=""> </img>
-              </div>
 
-              <div className="service-card">
-                <img src=""> </img>
-              </div>
-              
+              <ServiceCard 
+              img="https://images.unsplash.com/photo-1447758902204-48010b87c24d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+              title="Artist"
+              />
+
+              <ServiceCard 
+              img="https://github.com/SeckMohameth/Sene/blob/main/public/images/cosmo.jpg?raw=true"
+              title="Hairstylist"
+              />
+
+              <ServiceCard 
+              img="https://images.unsplash.com/photo-1554941829-202a0b2403b8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+              title="Production"
+              />
+
+              <ServiceCard 
+              img="https://images.unsplash.com/photo-1509771058437-91e2ce34b90d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80"
+              title="Culinary"
+              />
+
+           
+
           </div>
         </section>
-        <section className="services">
-          <div>
-          <h1 className="text-5xl font-bold mb-5 mt-12 p-16">For The Hustlers</h1>
-                <p>Jambar provides tools and resources to assist you in reaching your next client. Jambar also looks to match you with the best freelancer or business based on your budget, time, and needs.</p>
+        <section className="about-2 mt-20 mb-20 p-16">
+          <div className="flex ">
+            <div className="flex-col text-center">
+              <h1 className="text-5xl font-bold mr-20 mb-16">For The Hustlers</h1>
+              <p className="mr-20 text-3xl font-light mb-8 leading-10">Jambar provides tools and resources to assist you in reaching your next client. Jambar also looks to match you with the best freelancer or business based on your budget, time, and needs.</p>
+              <p className="mr-20 text-3xl font-light leading-10"> We are dedicated in serving our community and creating equal business opportunities for all. 🇸🇳</p>
+            </div>
+            <img className="" width="500" height="500" src="https://github.com/SeckMohameth/Sene/blob/main/public/images/francesca-noemi-marconi-PJdsv09Ep5c-unsplash.jpg?raw=true"/>
+
           </div>
         </section>
        
       </main>
-      <footer className="footer flex items-center">
-          Made with ❤️ in Dakar
+      <footer className="footer flex items-center border-t-2 p-10 flex-col border-red-300">
+          <p className="mb-4">Made with ❤️ in Dakar</p>
+          <p className="mb-2">&copy; 2021 Jambar.sn </p>
       </footer>
     </div>
   )

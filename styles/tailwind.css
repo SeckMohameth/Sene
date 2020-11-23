@@ -35,6 +35,17 @@
     transition-timing-function: ease-in-out;
 }
 
+.service-card {
+    @apply border-l-2 rounded-md shadow-md p-8 m-4 ; 
+    transition: transform .2s;
+    transition-timing-function: ease-in-out;
+
+}
+
+.service-card:hover {
+    transform: scale(1.1);
+    transition-timing-function: ease-in-out;
+}
 
 
 .senegalFlag {

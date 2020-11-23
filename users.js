@@ -15,7 +15,7 @@ const users = [
             "service": "Chef",
             "location": "Kaolack",
             "lang": "English, French",
-            "img": "https://github.com/SeckMohameth/Sene/blob/main/public/images/prince-akachi-s6tVlDVKz38-unsplash.jpg?raw=true"
+            "img": "https://github.com/SeckMohameth/Sene/blob/main/public/images/aziz.jpg?raw=true"
         },
         {
             "id": 2,
