@@ -11,6 +11,7 @@
 }
 
 .user-card {
-    @apply border-0 rounded-lg shadow-md p-8 m-8 content-center;
-
+    @apply border-l-2 rounded-md shadow-md p-8 m-4 ; 
+    margin-bottom: 100px;
 }
+
