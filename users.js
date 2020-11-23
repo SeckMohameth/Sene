@@ -1,4 +1,5 @@
 
+
 const users = [
         {
             "id": 0,
@@ -6,7 +7,7 @@ const users = [
             "service": "Web Developer",
             "location": "Dakar",
             "lang": "English",
-            "img": "../public/images/quaid-lagan-92YQRw3-__I-unsplash.jpg"
+            "img": "https://github.com/SeckMohameth/Sene/blob/main/public/images/tyler-nix-PogwemZ5esQ-unsplash.jpg?raw=true"
         },
         {
             "id": 1,
@@ -14,7 +15,7 @@ const users = [
             "service": "Chef",
             "location": "Kaolack",
             "lang": "English, French",
-            "img": "../"
+            "img": "https://github.com/SeckMohameth/Sene/blob/main/public/images/prince-akachi-s6tVlDVKz38-unsplash.jpg?raw=true"
         },
         {
             "id": 2,
@@ -22,7 +23,6 @@ const users = [
             "service": "UI/UX Designer",
             "location": "Saly",
             "lang": "Arabic, French",
-            "img": "../"
         },
         {
             "id": 3,
@@ -30,7 +30,6 @@ const users = [
             "service": "Carpenter",
             "location": "Dakar",
             "lang": "Wolof, French",
-            "img": "../"
         },
         {
             "id": 4,
@@ -38,7 +37,6 @@ const users = [
             "service": "Graphic Designer",
             "location": "Saint Louis",
             "lang": "English, Wolof",
-            "img": "../"
         },
         {
             "id": 5,
@@ -46,7 +44,6 @@ const users = [
             "service": "Fashion Designer",
             "location": "Dakar",
             "lang": "English, French",
-            "img": "../"
         },
         {
             "id": 6,
@@ -54,7 +51,6 @@ const users = [
             "service": "Chef",
             "location": "Dakar",
             "lang": "English, French",
-            "img": "../"
         },
         {
             "id": 7,
@@ -62,7 +58,6 @@ const users = [
             "service": "Chef",
             "location": "Saint Louis",
             "lang": "English, French",
-            "img": "../"
         },
         {
             "id": 8,
@@ -70,7 +65,6 @@ const users = [
             "service": "Hair Stylist",
             "location": "Linguere",
             "lang": "English, French",
-            "img": "../"
         },
         {
             "id": 9,
@@ -78,7 +72,6 @@ const users = [
             "service": "House Keeper",
             "location": "Dakar",
             "lang": "English, French",
-            "img": "../"
         },
         {
             "id": 10,
@@ -86,7 +79,6 @@ const users = [
             "service": "Musician",
             "location": "Dakar",
             "lang": "English, French",
-            "img": "../"
         },
         {
             "id": 11,
@@ -94,7 +86,6 @@ const users = [
             "service": "Videography",
             "location": "Theis",
             "lang": "English, French",
-            "img": "../"
         }
     ]
 

@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 
 import Head from 'next/head'
 // import styles from '../styles/Home.module.css'
+import Image from 'next/image'
 
 import users from '../users'
 
@@ -23,6 +24,7 @@ const user = users;
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
+        
         <Search placeholder='Search Jamber' />
         <HeroBanner />
         <div>
