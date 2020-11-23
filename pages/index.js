@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+// import styles from '../styles/Home.module.css'
 
 import users from '../users'
 
@@ -26,7 +26,7 @@ const user = users;
         <Search placeholder='Search Jamber' />
         <HeroBanner />
         <div>
-          <h1 className="text-5xl">Freelancers in Senegal</h1>
+          <h1 className="text-5xl p-16">Freelancers in Senegal</h1>
           <div className="freelancers">
             {user.map(user =>
               <Card 
@@ -41,14 +41,19 @@ const user = users;
         </div>
         <section className="about-1">
           <div>
-              <h1>Connecting Senegal</h1>
+              <h1 className="text-5xl font-bold p-16">Connecting Senegal</h1>
+              <div>
+                <img src="/images/aboutOne.jpg"></img>
+              </div>
           </div>
         </section>
 
         <section className="services">
           <div>
-          <h1>Search by Services</h1>
+          <h1 className="text-5xl font-bold p-16">Search by Services</h1>
+              <div>
 
+              </div>
           </div>
         </section>
         <section className="services">
@@ -59,7 +64,7 @@ const user = users;
         </section>
        
       </main>
-      <footer >
+      <footer className="footer flex items-center">
           Made with ❤️ in Dakar
       </footer>
     </div>
