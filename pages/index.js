@@ -25,32 +25,42 @@ const user = users;
       <main>
         <Search placeholder='Search Jamber' />
         <HeroBanner />
-        <div className="freelancers">
-          {user.map(user =>
-            <Card 
-            
-            name={user.name}
-            service={user.service}
-            location={user.location}
-            lang={user.lang}
-            />
-          )}
+        <div>
+          <h1 className="text-5xl">Freelancers in Senegal</h1>
+          <div className="freelancers">
+            {user.map(user =>
+              <Card 
+              img={user.img}
+              name={user.name}
+              service={user.service}
+              location={user.location}
+              lang={user.lang}
+              />
+            )}
+          </div>
         </div>
         <section className="about-1">
           <div>
-
+              <h1>Connecting Senegal</h1>
           </div>
         </section>
 
         <section className="services">
           <div>
+          <h1>Search by Services</h1>
+
+          </div>
+        </section>
+        <section className="services">
+          <div>
+          <h1>For The Hustlers</h1>
 
           </div>
         </section>
        
       </main>
       <footer >
-          {/* Made with ❤️ in Dakar */}
+          Made with ❤️ in Dakar
       </footer>
     </div>
   )

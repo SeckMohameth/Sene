@@ -6,7 +6,7 @@ const users = [
             "service": "Web Developer",
             "location": "Dakar",
             "lang": "English",
-            "img": "../"
+            "img": "../public/images/quaid-lagan-92YQRw3-__I-unsplash.jpg"
         },
         {
             "id": 1,
