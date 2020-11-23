@@ -57,15 +57,36 @@ const user = users;
         <section className="services">
           <div>
           <h1 className="text-5xl font-bold p-16">Search by Services</h1>
-              <div>
-
+              <div className="service-card">
+                <img src=""> </img>
               </div>
+
+              <div className="service-card">
+                <img src=""> </img>
+              </div>
+
+              <div className="service-card">
+                <img src=""> </img>
+              </div>
+
+              <div className="service-card">
+                <img src=""> </img>
+              </div>
+
+              <div className="service-card">
+                <img src=""> </img>
+              </div>
+
+              <div className="service-card">
+                <img src=""> </img>
+              </div>
+              
           </div>
         </section>
         <section className="services">
           <div>
-          <h1>For The Hustlers</h1>
-
+          <h1 className="text-5xl font-bold mb-5 mt-12 p-16">For The Hustlers</h1>
+                <p>Jambar provides tools and resources to assist you in reaching your next client. Jambar also looks to match you with the best freelancer or business based on your budget, time, and needs.</p>
           </div>
         </section>
        
