@@ -22,15 +22,15 @@ const users = [
             "service": "UI/UX Designer",
             "location": "Saly",
             "lang": "Arabic, French",
-            "img": "https://github.com/SeckMohameth/Sene/blob/main/public/images/tyler-nix-PogwemZ5esQ-unsplash.jpg?raw=true"
+            "img": "https://images.unsplash.com/photo-1527628217451-b2414a1ee733?ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80"
         },
         {
             "id": 3,
             "name": "Seydou",
-            "service": "Carpenter",
+            "service": "Photographer",
             "location": "Dakar",
             "lang": "Wolof, French",
-            "img": "https://github.com/SeckMohameth/Sene/blob/main/public/images/quaid-lagan-92YQRw3-__I-unsplash.jpg?raw=true"
+            "img": "https://images.unsplash.com/photo-1531384698654-7f6e477ca221?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=690&q=80"
         },
         {
             "id": 4,
@@ -54,7 +54,7 @@ const users = [
             "service": "Chef",
             "location": "Dakar",
             "lang": "English, French",
-            "img": "https://github.com/SeckMohameth/Sene/blob/main/public/images/prince-akachi-LWkFHEGpleE-unsplash.jpg?raw=true"
+            "img": "https://images.unsplash.com/photo-1531123414780-f74242c2b052?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
         },
         {
             "id": 7,
@@ -62,7 +62,7 @@ const users = [
             "service": "Hair Stylist",
             "location": "Saint Louis",
             "lang": "English, French",
-            "img": "https://github.com/SeckMohameth/Sene/blob/main/public/images/leon-ell-f6HbVnGtNnY-unsplash.jpg?raw=true"
+            "img": "https://images.unsplash.com/photo-1523824921871-d6f1a15151f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
         },
         {
             "id": 8,
@@ -78,7 +78,7 @@ const users = [
             "service": "Architect",
             "location": "Dakar",
             "lang": "English, French",
-            "img": "https://github.com/SeckMohameth/Sene/blob/main/public/images/joshua-oluwagbemiga-v_xXhGuMqsw-unsplash.jpg?raw=true"
+            "img": "https://images.unsplash.com/photo-1534491089148-7a0f3dc3c20e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=716&q=80"
         },
         {
             "id": 10,
@@ -97,5 +97,6 @@ const users = [
             "img": "https://images.unsplash.com/photo-1519164497992-65f6b58a2981?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=564&q=80"
         }
     ]
+
 
     export default users;
