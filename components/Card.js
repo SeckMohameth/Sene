@@ -7,7 +7,7 @@ import Link from 'next/link';
 const Card = (props) => {
     return (
         <a className="hover: cursor-pointer">
-            <div className="user-card hover:bg-red-600 border-red-700 hover:shadow-xl hover:text-white flex flex-col items-center">
+            <div className="user-card hover:bg-red-600 border-red-700 hover:shadow-xl hover:text-white flex flex-col items-center border-t-2">
                 <div className="image-cropper mb-4 group-hover:border-red-700">
                     <img src={props.img} className="profile mb-5"/>
                 </div>

@@ -1,5 +1,4 @@
 
-
 const users = [
         {
             "id": 0,
@@ -7,7 +6,7 @@ const users = [
             "service": "Web Developer",
             "location": "Dakar",
             "lang": "English",
-            "img": "https://images.unsplash.com/photo-1484517186945-df8151a1a871?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NXx8YmxhY2slMjBtYW4lMjBhZnJvfGVufDB8fDB8&auto=format&fit=crop&w=800&q=60"
+            "img": "../"
         },
         {
             "id": 1,
@@ -15,7 +14,7 @@ const users = [
             "service": "Chef",
             "location": "Kaolack",
             "lang": "English, French",
-            "img": "https://github.com/SeckMohameth/Sene/blob/main/public/images/aziz.jpg?raw=true"
+            "img": "../"
         },
         {
             "id": 2,
@@ -23,8 +22,7 @@ const users = [
             "service": "UI/UX Designer",
             "location": "Saly",
             "lang": "Arabic, French",
-            "img": "https://github.com/SeckMohameth/Sene/blob/main/public/images/fatima.jpg?raw=true"
-
+            "img": "../"
         },
         {
             "id": 3,
@@ -32,8 +30,7 @@ const users = [
             "service": "Carpenter",
             "location": "Dakar",
             "lang": "Wolof, French",
-            "img": "https://images.unsplash.com/photo-1563452965085-2e77e5bf2607?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTA5fHxibGFjayUyMG1hbnxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=800&q=60"
-
+            "img": "../"
         },
         {
             "id": 4,
@@ -41,8 +38,7 @@ const users = [
             "service": "Graphic Designer",
             "location": "Saint Louis",
             "lang": "English, Wolof",
-            "img": "https://github.com/SeckMohameth/Sene/blob/main/public/images/khadidja.jpg?raw=true"
-
+            "img": "../"
         },
         {
             "id": 5,
@@ -50,8 +46,7 @@ const users = [
             "service": "Fashion Designer",
             "location": "Dakar",
             "lang": "English, French",
-            "img": "https://github.com/SeckMohameth/Sene/blob/main/public/images/aisa.jpg?raw=true"
-
+            "img": "../"
         },
         {
             "id": 6,
@@ -59,8 +54,7 @@ const users = [
             "service": "Chef",
             "location": "Dakar",
             "lang": "English, French",
-            "img": "https://images.unsplash.com/photo-1589635021366-24ce21374163?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
-
+            "img": "../"
         },
         {
             "id": 7,
@@ -68,8 +62,7 @@ const users = [
             "service": "Chef",
             "location": "Saint Louis",
             "lang": "English, French",
-            "img": "https://github.com/SeckMohameth/Sene/blob/main/public/images/lala.jpg?raw=true"
-
+            "img": "../"
         },
         {
             "id": 8,
@@ -77,17 +70,15 @@ const users = [
             "service": "Hair Stylist",
             "location": "Linguere",
             "lang": "English, French",
-            "img": "https://github.com/SeckMohameth/Sene/blob/main/public/images/hakeeem.jpg?raw=true"
-
+            "img": "../"
         },
         {
             "id": 9,
-            "name": "Semba",
+            "name": "Aziz Seck",
             "service": "House Keeper",
             "location": "Dakar",
             "lang": "English, French",
-            "img": "https://images.unsplash.com/photo-1519164497992-65f6b58a2981?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mjh8fGJsYWNrJTIwbWFufGVufDB8fDB8&auto=format&fit=crop&w=800&q=60"
-
+            "img": "../"
         },
         {
             "id": 10,
@@ -95,8 +86,7 @@ const users = [
             "service": "Musician",
             "location": "Dakar",
             "lang": "English, French",
-            "img": "https://github.com/SeckMohameth/Sene/blob/main/public/images/aziz2.jpg?raw=true"
-
+            "img": "../"
         },
         {
             "id": 11,
@@ -104,8 +94,15 @@ const users = [
             "service": "Videography",
             "location": "Theis",
             "lang": "English, French",
-            "img": "https://images.unsplash.com/photo-1604669453433-4ad87a59bea2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
-
+            "img": "../"
+        },
+        {
+            "id": 12,
+            "name": "Semba",
+            "service": "Artist",
+            "location": "Dakar",
+            "lang": "English, French",
+            "img": "../"
         }
     ]
 

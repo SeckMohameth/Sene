@@ -7,9 +7,9 @@ import users from '../users'
 
 // import CardList from '../components/CardList'
 import Card from '../components/Card'
-import Search from '../components/Searchbar'
 import HeroBanner from "../components/Hero-banner"
 import ServiceCard from "../components/ServiceCard"
+import Nav from "../components/Navbar"
 
 export default function Home() {
 
@@ -18,17 +18,17 @@ const user = users;
 
 
   return (
-    <div >
+    <body>
+    <div className="p-2">
       <Head>
         <title>Jambar</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        
-        <Search placeholder='Search Jamber' />
+        <Nav />
         <HeroBanner />
         <div>
-          <h1 className="text-5xl p-16">Freelancers in Senegal</h1>
+          <h1 className="text-5xl m-16">Freelancers in Senegal</h1>
           <div className="freelancers">
               {user.map(user =>
                 <Card 
@@ -43,7 +43,7 @@ const user = users;
         </div>
         <section className="about-1 -mt-6">
           <div className="container flex">
-                <img src="/images/aboutOne.jpg" className="p-20" width="600" height="600"></img>
+                <img src="/images/aboutOne.jpg" className="p-20" width="600"></img>
                 <div className="flex-col p-16">
                   <div className="text-center">
                     <h1 className="text-5xl font-bold mb-5 mt-12">Connecting Senegal</h1>
@@ -113,5 +113,6 @@ const user = users;
           <p className="mb-2">&copy; 2021 Jambar.sn </p>
       </footer>
     </div>
+    </body>
   )
 }

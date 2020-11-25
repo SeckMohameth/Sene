@@ -7,7 +7,7 @@
 
 
 .freelancers {
-    padding: 50px;
+    margin: 50px;
     @apply flex justify-start;
     @apply grid grid-cols-4 gap-6;
 }
