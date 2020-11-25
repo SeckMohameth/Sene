@@ -61,7 +61,7 @@ const user = users;
           <div className="flex justify-start grid grid-cols-3 gap-6">
 
               <ServiceCard 
-              img="https://github.com/SeckMohameth/Sene/blob/main/public/images/pawel-czerwinski-_9dSF0Hwitw-unsplash.jpg?raw=true"
+              img="https://images.unsplash.com/photo-1533069027836-fa937181a8ce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
               title="Marketing"
               />
 
