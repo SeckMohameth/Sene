@@ -10,7 +10,7 @@ function HeroBanner() {
             <div className="hero-banner">
                 {/* <img src="https://images.unsplash.com/photo-1511283878565-0833bf39de9d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80"/> */}
                 <h1>Find your creator</h1>
-                <h3>Senegal's no. 1 freelancer and business</h3>
+                <h3>Senegal's largest community of freelancers and businesses</h3>
                 <div className="banner__buttons">
                     <button className=" bg-red-600 text-base font-medium rounded-lg p-3 px-6">Hire</button>
                     <button className="">Offer Services</button>
