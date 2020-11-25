@@ -59,7 +59,7 @@ const users = [
         {
             "id": 7,
             "name": "Lala",
-            "service": "Chef",
+            "service": "Hair Stylist",
             "location": "Saint Louis",
             "lang": "English, French",
             "img": "../"
@@ -67,22 +67,22 @@ const users = [
         {
             "id": 8,
             "name": "Hakeem",
-            "service": "Hair Stylist",
+            "service": "Automotive",
             "location": "Linguere",
             "lang": "English, French",
             "img": "../"
         },
         {
             "id": 9,
-            "name": "Aziz Seck",
-            "service": "House Keeper",
+            "name": "Alboury",
+            "service": "Architect",
             "location": "Dakar",
             "lang": "English, French",
             "img": "../"
         },
         {
             "id": 10,
-            "name": "Aziz Seck",
+            "name": "Hassim",
             "service": "Musician",
             "location": "Dakar",
             "lang": "English, French",
@@ -90,17 +90,9 @@ const users = [
         },
         {
             "id": 11,
-            "name": "Amina",
+            "name": "Semba",
             "service": "Videography",
             "location": "Theis",
-            "lang": "English, French",
-            "img": "../"
-        },
-        {
-            "id": 12,
-            "name": "Semba",
-            "service": "Artist",
-            "location": "Dakar",
             "lang": "English, French",
             "img": "../"
         }
