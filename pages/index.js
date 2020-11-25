@@ -61,7 +61,7 @@ const user = users;
           <div className="flex justify-start grid grid-cols-3 gap-6">
 
               <ServiceCard 
-              img="https://github.com/SeckMohameth/Sene/blob/main/public/images/marketing.jpg?raw=true"
+              img="https://github.com/SeckMohameth/Sene/blob/main/public/images/pawel-czerwinski-_9dSF0Hwitw-unsplash.jpg?raw=true"
               title="Marketing"
               />
 
@@ -77,7 +77,7 @@ const user = users;
               />
 
               <ServiceCard 
-              img="https://github.com/SeckMohameth/Sene/blob/main/public/images/cosmo.jpg?raw=true"
+              img="https://github.com/SeckMohameth/Sene/blob/main/public/images/guilherme-petri-PtOfbGkU3uI-unsplash.jpg?raw=true"
               title="Hairstylist"
               />
 
